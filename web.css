@@ -1,0 +1,92 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+}
+
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+}
+
+.cointaier {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 40px;
+            background: linear-gradient(90deg, #141e30, #243b55);
+            color: white;
+        }
+        .listItem {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+
+        .listItem li {
+            list-style: none;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .listItem li:hover {
+            color: #ffcc70;
+            transform: translateY(-3px);
+        }
+
+        #logo {
+            font-size: 32px;
+            font-weight: bold;
+            color: #ffcc70;
+        }
+
+        .webbody {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            min-height: 400px;
+            padding: 40px 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2, #a855f7);
+            color: white;
+            text-align: center;
+        }
+
+        .webbody h1 {
+            font-size: 40px;
+        }
+
+        .webbody p {
+            font-size: 18px;
+            color: #f1eaff;
+        }
+
+        button {
+            padding: 12px 30px;
+            border: none;
+            border-radius: 25px;
+            background: linear-gradient(90deg, #ff512f, #dd2476);
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            transform: scale(1.08);
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+        }
+
+
+.foot{
+    background-color: black;
+    color: wheat;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+}
